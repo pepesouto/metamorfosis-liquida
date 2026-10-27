@@ -14,6 +14,12 @@ Todos los servidores se sirven desde la carpeta raíz del proyecto.
 - `http://localhost:4181/mask-cursor` — Cámara base + reveal iridiscente desplazado, máscara pintable y ondas ambientales.
 - `http://localhost:4182/iridescence-demo.html` — Iridescence procedural con mouse/touch.
 - `http://localhost:4182/iridescence-displacement.html` — Cámara + displacement iridiscente con slider.
+- `http://localhost:4183/mask-cursor` — Copia independiente de `mask-cursor` para probarla sin tocar 4181.
+- `http://localhost:4184/image-follow-cursor` — Versión local de Iridescence Displacement con cámara.
+- Vercel temporal: `https://express-amber-krcrpen.tmp.now/mask-cursor` (vence en aproximadamente 60 minutos).
+- Para conservarlo en una cuenta de Vercel: `https://vercel.com/claim-deployment?code=dd7661ef-1316-47a5-a783-46a454b59e03`.
+- Último deployment actualizado: `https://snappy-eclipse-8mb4v3v.tmp.now/image-follow-cursor`.
+- Claim del deployment actualizado: `https://vercel.com/claim-deployment?code=5437c2e2-acd1-4d72-b538-cbe70aa467de`.
 
 ## Controles importantes de `mask-cursor`
 
@@ -27,3 +33,4 @@ Todos los servidores se sirven desde la carpeta raíz del proyecto.
 
 - `4175`, `4176`, `4177`, `4179`, `4180` y `4182` usan el servidor local simple de la raíz.
 - `4181` usa Next.js dentro de `mouse-effects-demo`.
+- `4183` usa la misma app Next.js, en una instancia separada para pruebas.
